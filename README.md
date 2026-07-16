@@ -249,7 +249,7 @@ To enable detailed monitoring of your DHIS2 tomcat application, you should run:
 to setup the agent.  (change <instance_name) to your instance, eg. hmis, covid19 ...
 
 ### Web proxy
-By default you will have instaled an apache2 reverse proxy server with an SSL/TLS certificate
+By default you will have installed an apache2 reverse proxy server with an SSL/TLS certificate
 from letsencrypt.  You will be able to browse to your DHIS2 instances with `https://<server_name>/<instance_name>`.  You will also be able to browse to the syste monitor at `https://server_name>/munin`.  It should soon be also possible to use an nginx proxy, but the apache2 one is currently the 
 best tested.
 
